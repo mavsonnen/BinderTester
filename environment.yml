@@ -9,7 +9,7 @@ dependencies:
   - python
   - numpy
   - pip
-  - sklearn
+  - scikit-learn
   - shapely
   - rasterio
   - matplotlib
