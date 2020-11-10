@@ -1,0 +1,24 @@
+name: example-environment
+python:
+  version: 3.7
+channels:
+  - conda-forge
+dependencies:
+  - gdal
+  - python
+  - numpy
+  - pip
+  - sklearn
+  - shapely
+  - rasterio
+  - matplotlib
+  - earthpy
+  - geopandas
+  - numpy
+  - lithops
+  - pandas
+  - pickle-mixin
+  - joblib
+  - glob2
+  - os-win
+
