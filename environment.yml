@@ -3,6 +3,7 @@ python:
   version: 3.7
 channels:
   - conda-forge
+  - intel
 dependencies:
   - gdal
   - python
@@ -15,10 +16,15 @@ dependencies:
   - earthpy
   - geopandas
   - numpy
-  - lithops
   - pandas
-  - pickle-mixin
   - joblib
   - glob2
-  - os-win
+  - pip:
+    - lithops
+    - pickle-mixin
+    - os-win
+
+
+
+
 
