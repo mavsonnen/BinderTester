@@ -1,10 +1,11 @@
-name: example-environment
+name: python 3.7
 python:
   version: 3.7
 channels:
   - conda-forge
   - intel
 dependencies:
+  - python=3.7
   - gdal
   - python
   - numpy
